@@ -11,6 +11,7 @@ import { Button } from "../ui/button";
 import UserIcon from "./UserIcon";
 import Link from "next/link";
 import { links } from "@/utils/links";
+import SignOutLinks from "./SignOutLinks";
 
 
 const DropDownListMenu = () => {
@@ -32,6 +33,7 @@ const DropDownListMenu = () => {
             </DropdownMenuItem>
           })
         }    
+        <SignOutLinks/>
       </DropdownMenuContent>
     </DropdownMenu>
   );
